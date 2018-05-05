@@ -1,46 +1,75 @@
 ---
-theme : "white"
-transition: "zoom"
-highlightTheme: "darkula"
----
-
-## Design Patterns 101
-
-
-<small>By [Shobhit Chittora](https://github.com/shobhitchittora) / [@shobhitchittora](https://twitter.com/shobhitchittora)</small>
+title: Redux-saga
+theme : black
+revealOptions:
+  transition: zoom
+highlightTheme: darkula
 
 ---
 
-## Discliamer
+## A saga of Redux-saga
 
-🔥 Too many gifs! 🔥 <br />
-🔥 Live Demos! 🔥 
+<img src="https://redux-saga.js.org/logo/0800/Redux-Saga-Logo-Landscape.png"/ style="border: none; width: 50%; background: none;">
+
+---
+
+## About me
+
+* Full Stack Enginner.
+* @ NestAway Techonologies.
+* Novice Open Source Contributor ( NodeJS, VSCode ).
+* I ️ ❤️   everything JS.
+* Design patterns nerd and book-worm 📒 🐛.
+
+---
+
+<a href="https://github.com/shobhitchittora" style="color: lightgrey; ">
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 9%; margin: 0;  margin-right: 0%; margin-left: -5%; margin-top: 3%; border: none; background: none;"
+/>
+shobhitchittora</a>
+
+
+<a href="https://twitter.com/shobhitchittora">
+<img src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png" style="width: 5%; margin: 0;  margin-right: 1%; border: none; background: none;"
+/>
+@shobhitchittora</a>
+
+<a href="https://stackoverflow.com/users/9255238/shobhit-chittora" style="color: orange; ">
+<img src="https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png" style="width: 5%; margin: 0; margin-right: 2%; border: none; background: none;"
+/>
+shobhit-chittora</a>
+
+<a href="https://medium.com/@chittorashobhit" style="color: lightgreen; ">
+<img src="http://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" style="width: 6%; margin: 0; margin-right: 1%; border: none; background: none;"
+/>
+@chittorashobhit</a>
 
 
 ---
 
-## Why Design Patterns ?
+## What is this talk about ?
+
+* Who here is using Redux for state management ?
+* And who here has faced difficulty in managing component interactions ?
+
 
 ---
 
-<!-- .slide: data-background="https://media.giphy.com/media/Jlt69Ka6SwtH2/giphy.gif" -->
+## What is Redux-saga ?
+
+
+<p style="font-weight: bold; margin-top: 70px;"> &quot; Redux-saga is a side-effect management library for Redux applications. &quot; </p>
 
 ---
 
-<!-- .slide: data-background="https://media.giphy.com/media/26DNdV3b6dqn1jzR6/giphy.gif" -->
+## What are side-effects ?
+
+asdjflk
 
 ---
 
-## What is a Pattern ?
-A pattern is a reusable solution that can be applied to commonly occurring problems in software design.
 
----
-
-## What can they do for us ?
-
-*  Reusable ( not tied to any specific implementation ).
-*  Tested and proven development paradigms.
-*  Improves code readability for coders familiar with the patterns. 
+## Crash course - Generators 
 
 ---
 
