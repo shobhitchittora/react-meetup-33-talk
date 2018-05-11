@@ -49,9 +49,8 @@ shobhit-chittora</a>
 
 ## What is this talk about ?
 
-* Who here is using Redux for state management ?
-* And who here has faced difficulty in managing component interactions ?
-
+* Who here has ever used Redux for state management ?
+* And who here worked on complex React applications ?
 
 ---
 
@@ -64,11 +63,49 @@ shobhit-chittora</a>
 
 ## What are side-effects ?
 
-asdjflk
+---
+
+## What are Pure functions ? 
+
+1. The function always returns the same result if the same arguments are passed in. (It does not depend on any state, or data, change during a program’s execution. It must only depend on its input arguments.)
+
+2. The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
 
 ---
 
-## Crash course - Generators 
+## What is a saga ?
+
+<p style="font-weight: bold; margin-top: 70px;"> &quot; Sagas are implemented as Generator functions that yield objects to the redux-saga middleware. &quot; </p>
+
+---
+
+## Crash course - Generators
+
+<p style="font-weight: bold; margin-top: 70px;"> &quot; The ```function*```  declaration defines a generator function, which returns a Generator object. 
+ &quot; </p>
+
+---
+
+<img style="border: none; width: 65%;" src="./generator_101.png"/>
+
+---
+
+<p style="font-weight: bold; margin-top: 70px;"> &quot; Generators are functions which can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.
+ &quot; </p>
+
+---
+
+
+## Useful Design Patterns
+
+---
+
+## More
+
+* Separation of concerns.
+* Allows for better re-use.
+* Can allow for sharing code across platforms.
+
 
 ---
 
