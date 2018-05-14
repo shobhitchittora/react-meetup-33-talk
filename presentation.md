@@ -127,6 +127,21 @@ throttle(ms, pattern, saga, ...args)
 
 ---
 
+<h3 style="text-transform: none;">take</h3>
+
+take(pattern)
+
+<img style="border: none; width: 60%;" src="./take.png"/>
+
+---
+
+<h3 style="text-transform: none;">put</h3>
+
+put(action)
+
+
+---
+
 <!-- .slide: data-background="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif" -->
 
 ---
