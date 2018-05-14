@@ -24,38 +24,29 @@ highlightTheme: darkula
 ---
 
 <a href="https://github.com/shobhitchittora" style="color: lightgrey; ">
-<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 9%; margin: 0;  margin-right: 0%; margin-left: -5%; margin-top: 3%; border: none; background: none;"
+<img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 9%; margin: 0;  margin-right: 2%; margin-left: -4.8%; margin-top: 0%; border: none; background: none;"
 />
 shobhitchittora</a>
 
 
 <a href="https://twitter.com/shobhitchittora">
-<img src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png" style="width: 5%; margin: 0;  margin-right: 1%; border: none; background: none;"
+<img src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png" style="width: 5%; margin: 0;  margin-right: 2%; border: none; background: none;"
 />
 @shobhitchittora</a>
 
 <a href="https://stackoverflow.com/users/9255238/shobhit-chittora" style="color: orange; ">
-<img src="https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png" style="width: 5%; margin: 0; margin-right: 2%; border: none; background: none;"
+<img src="https://streamdata.io/wp-content/uploads/2018/04/stack-overflow-orange.png" style="width: 5%; margin: 0; margin-right: 3.4%; border: none; background: none;"
 />
 shobhit-chittora</a>
 
 <a href="https://medium.com/@chittorashobhit" style="color: lightgreen; ">
-<img src="http://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" style="width: 6%; margin: 0; margin-right: 1%; border: none; background: none;"
+<img src="http://www.stickpng.com/assets/images/5841c47ba6515b1e0ad75aa3.png" style="width: 6%; margin: 0; margin-top: 0%; margin-right: 3%; border: none; background: none;"
 />
 @chittorashobhit</a>
-
-
----
-
-## What is this talk about ?
-
-* Who here has ever used Redux for state management ?
-* And who here worked on complex React applications ?
 
 ---
 
 ## What is Redux-saga ?
-
 
 <p style="font-weight: bold; margin-top: 70px;"> &quot; Redux-saga is a side-effect management library for Redux applications. &quot; </p>
 
@@ -95,17 +86,44 @@ shobhit-chittora</a>
 
 ---
 
+## What can this help me ? 
 
-## Useful Design Patterns
+* Separation of concerns.
+* Better testability.
+* Readability.
+* Co-location.
+* Code sharing and re-use.
 
 ---
 
-## More
+## Useful Effects
 
-* Separation of concerns.
-* Allows for better re-use.
-* Can allow for sharing code across platforms.
 
+---
+
+<h3 style="text-transform: none;">takeEvery</h3>
+
+takeEvery(pattern, saga, ...args)
+
+<img style="border: none; width: 65%;" src="./takeEvery.png"/>
+
+---
+
+<h3 style="text-transform: none;">takeLatest</h3>
+
+takeLatest(pattern, saga, ...args)
+
+* cancels any previous saga task started previous if it's still running.
+
+<img style="border: none; width: 65%;" src="./takeLatest.png"/>
+
+---
+
+<h3 style="text-transform: none;">throttle</h3>
+
+throttle(ms, pattern, saga, ...args)
+
+<img style="border: none; width: 100%;" src="./throttle.png"/>
 
 ---
 
