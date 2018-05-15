@@ -1,0 +1,29 @@
+{
+  "name": "react-meetup-33-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "reveal-md ./presentation.md --static public && cp -r ./images ./public",
+    "heroku:login": "heroku login",
+    "heroku:create": "heroku create",
+    "deploy": "git push heroku master",
+    "open": "heroku open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shobhitchittora/react-meetup-33-talk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shobhitchittora/react-meetup-33-talk/issues"
+  },
+  "homepage": "https://github.com/shobhitchittora/react-meetup-33-talk#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "reveal-md": "^2.0.5"
+  }
+}

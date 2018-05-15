@@ -57,12 +57,12 @@ shobhit-chittora</a>
 ---
 
 ### component
-<img style="border: none; width: 90%;" src="./images/counter-index.png"/>
+<img style="border: none; width: 80%;" src="./images/counter-index.png"/>
 
 ---
 
 ### Connect
-<img style="border: none; width: 70%;" src="./images/counter-connect.png"/>
+<img style="border: none; width: 65%;" src="./images/counter-connect.png"/>
 
 ---
 
@@ -73,12 +73,18 @@ shobhit-chittora</a>
 ---
 
 ### saga
-<img style="border: none; width: 90%;" src="./images/counter-saga.png"/>
+<img style="border: none; width: 70%;" src="./images/counter-saga.png"/>
+
+---
+
+### run
+<img style="border: none; width: 65%;" src="./images/saga-run.png"/>
+
 
 ---
 
 ### test
-<img style="border: none; width: 90%;" src="./images/counter-saga-test.png"/>
+<img style="border: none; width: 65%;" src="./images/counter-saga-test.png"/>
 
 ---
 
