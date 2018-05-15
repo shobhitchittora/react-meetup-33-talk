@@ -52,6 +52,22 @@ shobhit-chittora</a>
 
 ---
 
+## Demo
+
+---
+
+<img style="border: none; width: 90%;" src="./images/counter-index.png"/>
+
+---
+
+<img style="border: none; width: 70%;" src="./images/counter-connect.png"/>
+
+---
+
+<img style="border: none; width: 70%;" src="./images/counter-reducer.png"/>
+
+---
+
 ## What are side-effects ?
 
 ---
@@ -77,7 +93,7 @@ shobhit-chittora</a>
 
 ---
 
-<img style="border: none; width: 65%;" src="./generator_101.png"/>
+<img style="border: none; width: 65%;" src="./images/generator_101.png"/>
 
 ---
 
@@ -105,7 +121,7 @@ shobhit-chittora</a>
 
 takeEvery(pattern, saga, ...args)
 
-<img style="border: none; width: 65%;" src="./takeEvery.png"/>
+<img style="border: none; width: 65%;" src="./images/takeEvery.png"/>
 
 ---
 
@@ -115,7 +131,7 @@ takeLatest(pattern, saga, ...args)
 
 * cancels any previous saga task started previous if it's still running.
 
-<img style="border: none; width: 65%;" src="./takeLatest.png"/>
+<img style="border: none; width: 65%;" src="./images/takeLatest.png"/>
 
 ---
 
@@ -123,7 +139,7 @@ takeLatest(pattern, saga, ...args)
 
 throttle(ms, pattern, saga, ...args)
 
-<img style="border: none; width: 100%;" src="./throttle.png"/>
+<img style="border: none; width: 100%;" src="./images/throttle.png"/>
 
 ---
 
@@ -131,7 +147,7 @@ throttle(ms, pattern, saga, ...args)
 
 take(pattern)
 
-<img style="border: none; width: 60%;" src="./take.png"/>
+<img style="border: none; width: 60%;" src="./images/take.png"/>
 
 ---
 
