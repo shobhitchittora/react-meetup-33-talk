@@ -191,6 +191,68 @@ take(pattern)
 
 put(action)
 
+<img style="border: none; width: 60%;" src="./images/put.png"/>
+
+---
+
+<h3 style="text-transform: none;">call</h3>
+
+call(fn, ...args)
+
+<img style="border: none; width: 60%;" src="./images/call.png"/>
+
+---
+
+<h3 style="text-transform: none;">fork</h3>
+
+fork(fn, ...args)
+
+### needs more explaining
+
+---
+
+<h3 style="text-transform: none;">spawn</h3>
+
+spawn(fn, ...args)
+
+### needs more explaining
+
+---
+
+<h3 style="text-transform: none;">select</h3>
+
+select(selector, ...args)
+
+
+---
+
+
+<h3 style="text-transform: none;">race</h3>
+
+race(effects)
+
+<img style="border: none; width: 70%;" src="./images/race.png"/>
+
+---
+
+<h3 style="text-transform: none;">all</h3>
+
+all([...effects]) 
+
+<img style="border: none; width: 70%;" src="./images/all.png"/>
+
+---
+
+<h3 style="text-transform: none;">channel</h3>
+
+channel([buffer])
+
+---
+
+<h3 style="text-transform: none;">eventChannel</h3>
+eventChannel(subscribe, [buffer], [matcher])
+
+---
 
 <img style="width: 60%;" src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif"/>
 
