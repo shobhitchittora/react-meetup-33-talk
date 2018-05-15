@@ -56,15 +56,29 @@ shobhit-chittora</a>
 
 ---
 
+### component
 <img style="border: none; width: 90%;" src="./images/counter-index.png"/>
 
 ---
 
+### Connect
 <img style="border: none; width: 70%;" src="./images/counter-connect.png"/>
 
 ---
 
+### Reducer
+
 <img style="border: none; width: 70%;" src="./images/counter-reducer.png"/>
+
+---
+
+### saga
+<img style="border: none; width: 90%;" src="./images/counter-saga.png"/>
+
+---
+
+### test
+<img style="border: none; width: 90%;" src="./images/counter-saga-test.png"/>
 
 ---
 
