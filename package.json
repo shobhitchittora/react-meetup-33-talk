@@ -9,7 +9,8 @@
     "heroku:login": "heroku login",
     "heroku:create": "heroku create",
     "deploy": "git push heroku master",
-    "open": "heroku open"
+    "open": "heroku open",
+    "logs": "heroku logs"
   },
   "repository": {
     "type": "git",

@@ -46,6 +46,22 @@ shobhit-chittora</a>
 
 ---
 
+<img style="width: 60%;" src="https://media.giphy.com/media/vLx0VBouiPZuCz0D0a/giphy.gif"/>
+
+---
+
+<img style="width: 60%;" src="https://media.giphy.com/media/39zN2zuc16xdpNuJ0W/source.gif"/>
+
+---
+
+<img style="width: 60%;" src="https://media.giphy.com/media/7E8yYUNt0pQSeZNt4Y/giphy.gif"/>
+
+---
+
+<img style="width: 60%;" src="https://media.giphy.com/media/l3q2Z6S6n38zjPswo/giphy.gif"/>
+
+---
+
 ## What is Redux-saga ?
 
 <p style="font-weight: bold; margin-top: 70px;"> &quot; Redux-saga is a side-effect management library for Redux applications. &quot; </p>
@@ -176,9 +192,7 @@ take(pattern)
 put(action)
 
 
----
-
-<!-- .slide: data-background="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif" -->
+<img style="width: 60%;" src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif"/>
 
 ---
 
