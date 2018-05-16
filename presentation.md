@@ -223,9 +223,7 @@ spawn(fn, ...args)
 
 select(selector, ...args)
 
-
 ---
-
 
 <h3 style="text-transform: none;">race</h3>
 
@@ -251,6 +249,42 @@ channel([buffer])
 
 <h3 style="text-transform: none;">eventChannel</h3>
 eventChannel(subscribe, [buffer], [matcher])
+
+---
+
+### Useful Patterns
+
+---
+
+<h3 style="text-transform: none;">fork tasks</h3>
+
+<img style="border: none; width: 70%;" src="./images/filters-fork.png"/>
+
+---
+
+<h3 style="text-transform: none;">waitFor</h3>
+
+<img style="border: none; width: 70%;" src="./images/waitFor.png"/>
+
+---
+
+<h3 style="text-transform: none;">Error Handling</h3>
+
+<img style="border: none; width: 70%;" src="./images/error-handling.png"/>
+
+---
+
+<h3 style="text-transform: none;">debounce</h3>
+
+<img style="border: none; width: 70%;" src="./images/debounce.png"/>
+
+---
+
+<h3 style="text-transform: none;">Retry XHR</h3>
+
+---
+
+<img style="border: none; width: 50%;" src="./images/retry-xhr.png"/>
 
 ---
 
