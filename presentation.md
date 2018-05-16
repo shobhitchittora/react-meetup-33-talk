@@ -268,9 +268,15 @@ eventChannel(subscribe, [buffer], [matcher])
 
 ---
 
+<h3 style="text-transform: none;">External events</h3>
+
+<img style="border: none; width: 80%;" src="./images/external-events.png"/>
+
+---
+
 <h3 style="text-transform: none;">Error Handling</h3>
 
-<img style="border: none; width: 70%;" src="./images/error-handling.png"/>
+<img style="border: none; width: 60%;" src="./images/error-handling.png"/>
 
 ---
 
