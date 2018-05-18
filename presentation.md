@@ -132,6 +132,9 @@ shobhit-chittora</a>
 ### run
 <img style="border: none; width: 65%;" src="./images/saga-run.png"/>
 
+---
+
+<img style="border: none; width: 65%;" src="./images/counter-image.svg"/>
 
 ---
 
@@ -240,22 +243,6 @@ call(fn, ...args)
 
 ---
 
-<h3 style="text-transform: none;">fork</h3>
-
-fork(fn, ...args)
-
-### needs more explaining
-
----
-
-<h3 style="text-transform: none;">spawn</h3>
-
-spawn(fn, ...args)
-
-### needs more explaining
-
----
-
 <h3 style="text-transform: none;">race</h3>
 
 race(effects)
@@ -269,6 +256,40 @@ race(effects)
 all([...effects]) 
 
 <img style="border: none; width: 70%;" src="./images/all.png"/>
+
+---
+
+
+<h3 style="text-transform: none;">fork</h3>
+
+fork(fn, ...args)
+
+<p>"creates attached tasks"</p>
+
+<img style="border: none; width: 75%;" src="./images/fork.png"/>
+
+<aside class="notes">
+		parent waits for all tasks to finish.
+    <br/>
+    errors propagate to the parent.
+</aside>
+
+---
+
+<h3 style="text-transform: none;">spawn</h3>
+
+spawn(fn, ...args)
+
+<p>"creates detached tasks"</p>
+
+<img style="border: none; width: 75%;" src="./images/spawn.png"/>
+
+<aside class="notes">
+		parent does not wait for the tasks to finish.
+    <br/>
+    errors do not propagate to the parent.
+</aside>
+
 
 ---
 
