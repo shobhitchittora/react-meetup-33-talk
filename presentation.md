@@ -66,6 +66,10 @@ shobhit-chittora</a>
 
 <p style="font-weight: bold; margin-top: 70px;"> &quot; Redux-saga is a side-effect management library for Redux applications. &quot; </p>
 
+<aside class="notes">
+		Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+</aside>
+
 ---
 
 ## Demo
