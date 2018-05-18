@@ -148,26 +148,13 @@ a function modifies some state outside its scope or has an observable interactio
 &quot;
 </p>
 
-
 ---
 
-## What are Pure functions ? 
+What are considered side-effects ?
 
-1. The function always returns the same result if the same arguments are passed in.
-
-2. The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
-
-<aside class="notes">
-		React components are pure functions with respect to props.
-</aside>
-
----
-
-  <p>Component = f(props)</p>
-
----
-
-  <p>Side effects are not dependant on function inputs.</p>
+* Network calls
+* Actions dispatched
+* Reading from state outside the scope of a component
 
 ---
 
@@ -193,18 +180,7 @@ a function modifies some state outside its scope or has an observable interactio
 
 ---
 
-## What can this help me ? 
-
-* Separation of concerns.
-* Better testability.
-* Readability.
-* Co-location.
-* Code sharing and re-use.
-
----
-
 ## Useful Effects
-
 
 ---
 
@@ -250,6 +226,12 @@ put(action)
 
 ---
 
+<h3 style="text-transform: none;">select</h3>
+
+select(selector, ...args)
+
+---
+
 <h3 style="text-transform: none;">call</h3>
 
 call(fn, ...args)
@@ -271,12 +253,6 @@ fork(fn, ...args)
 spawn(fn, ...args)
 
 ### needs more explaining
-
----
-
-<h3 style="text-transform: none;">select</h3>
-
-select(selector, ...args)
 
 ---
 
@@ -349,7 +325,17 @@ eventChannel(subscribe, [buffer], [matcher])
 
 ---
 
-<img style="width: 60%;" src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif"/>
+## What can this help me ? 
+
+* Separation of concerns.
+* Better testability.
+* Readability.
+* Co-location.
+* Code sharing and re-use.
+
+---
+
+<img style="width: 70%; border: none;" src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif"/>
 
 ---
 
