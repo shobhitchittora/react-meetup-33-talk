@@ -11,6 +11,11 @@ highlightTheme: darkula
 
 <img src="https://redux-saga.js.org/logo/0800/Redux-Saga-Logo-Landscape.png"/ style="border: none; width: 50%; background: none;">
 
+<aside class="notes">
+		Hi everyone! How are you doing today. 
+    Let's have quick round of applause for the all the speakers today and the organizers, who help bring together such a great community.
+</aside>
+
 ---
 
 ## About me
@@ -27,7 +32,6 @@ highlightTheme: darkula
 <img src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png" style="width: 9%; margin: 0;  margin-right: 2%; margin-left: -4.8%; margin-top: 0%; border: none; background: none;"
 />
 shobhitchittora</a>
-
 
 <a href="https://twitter.com/shobhitchittora">
 <img src="https://logos-download.com/wp-content/uploads/2016/02/Twitter_logo_bird_transparent_png.png" style="width: 5%; margin: 0;  margin-right: 2%; border: none; background: none;"
@@ -48,31 +52,59 @@ shobhit-chittora</a>
 
 <img style="width: 60%;" src="https://media.giphy.com/media/vLx0VBouiPZuCz0D0a/giphy.gif"/>
 
+
+<aside class="notes">
+		Let's start with a real life story. And mind me it really happened.
+    <br/>
+    So in an alternate universe our beloved Barney Stinson is a JS Developer. And one day his boss comes to him and tell him that we're gonna start a new project. It'll all be glorious and they're gonna build it on React , Redux, GraphQL and other cool tech out there.
+
+</aside>
+
 ---
 
 <img style="width: 60%;" src="https://media.giphy.com/media/39zN2zuc16xdpNuJ0W/source.gif"/>
+
+<aside class="notes">
+		And so Barney happily started coding. He was the building components like crazy. Blazing fast page loads and all.
+    He was in his full glory. 
+    <br/>
+    But slowly as more people joined the project, more requirements were realized, he was like - 
+</aside>
 
 ---
 
 <img style="width: 60%;" src="https://media.giphy.com/media/7E8yYUNt0pQSeZNt4Y/giphy.gif"/>
 
----
-
-<img style="width: 60%;" src="https://media.giphy.com/media/l3q2Z6S6n38zjPswo/giphy.gif"/>
+<aside class="notes">
+		Soon his project became un-readable and hard to reason about. Random things used to break down and Barney was chasing ghosts.
+    It was all very frustrating.
+</aside>
 
 ---
 
 ## What is Redux-saga ?
 
+<img style="width: 90%;" src="./images/redux-saga-github.png"/>
+
 <p style="font-weight: bold; margin-top: 70px;"> &quot; Redux-saga is a side-effect management library for Redux applications. &quot; </p>
 
+
+
 <aside class="notes">
-		Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+		I know the definition can be confusing with all the jargons in it, but don't worry we're gonna talk about all of them in a few minutes. I'll give you the dictionary definition.😎
 </aside>
 
 ---
 
 ## Demo
+
+<aside class="notes">
+		Let's quickly jump into a small demo which will introduce you to all the moving parts which we're gonna talk about today. 
+</aside>
+
+---
+
+<img style="width: 60%; border: none;" src="./images/counter-ex.gif"/>
 
 ---
 
@@ -110,13 +142,32 @@ shobhit-chittora</a>
 
 ## What are side-effects ?
 
+<p style="font-weight: bold; margin-top: 70px;">
+&quot;
+a function modifies some state outside its scope or has an observable interaction with its calling functions
+&quot;
+</p>
+
+
 ---
 
 ## What are Pure functions ? 
 
-1. The function always returns the same result if the same arguments are passed in. (It does not depend on any state, or data, change during a program’s execution. It must only depend on its input arguments.)
+1. The function always returns the same result if the same arguments are passed in.
 
 2. The function does not produce any observable side effects such as network requests, input and output devices, or data mutation.
+
+<aside class="notes">
+		React components are pure functions with respect to props.
+</aside>
+
+---
+
+  <p>Component = f(props)</p>
+
+---
+
+  <p>Side effects are not dependant on function inputs.</p>
 
 ---
 
