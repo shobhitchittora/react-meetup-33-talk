@@ -233,6 +233,8 @@ put(action)
 
 select(selector, ...args)
 
+<img style="border: none; width: 70%;" src="./images/select.png"/>
+
 ---
 
 <h3 style="text-transform: none;">call</h3>
@@ -297,10 +299,15 @@ spawn(fn, ...args)
 
 channel([buffer])
 
----
+<br/>
 
 <h3 style="text-transform: none;">eventChannel</h3>
 eventChannel(subscribe, [buffer], [matcher])
+
+<br/>
+
+<h3 style="text-transform: none;">actionChannel</h3>
+actionChannel(pattern, [buffer])
 
 ---
 
