@@ -374,6 +374,15 @@ actionChannel(pattern, [buffer])
 
 ---
 
+
+#### Slides - 
+
+[https://github.com/shobhitchittora/react-meetup-33-talk](https://github.com/shobhitchittora/react-meetup-33-talk)
+
+
+---
+
+
 <img style="width: 70%; border: none;" src="https://media.giphy.com/media/l0MYDGA3Du1hBR4xG/giphy.gif"/>
 
 ---
