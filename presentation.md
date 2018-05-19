@@ -22,9 +22,8 @@ highlightTheme: darkula
 
 * Full Stack Enginner.
 * @ NestAway Techonologies.
-* Novice Open Source Contributor ( NodeJS, VSCode ).
+* Open Source Contributor ( NodeJS, VSCode, ... ).
 * I ️ ❤️   everything JS.
-* Design patterns nerd and book-worm 📒 🐛.
 
 ---
 
@@ -50,14 +49,21 @@ shobhit-chittora</a>
 
 ---
 
+<img style="width: 80%;" src="./images/long-time.jpg" />
+
+<aside class="notes">
+    Let me tell you a story.
+    <br/>
+    A long time ago, in a galaxy far far away.
+</aside>
+
+---
+
 <img style="width: 60%;" src="https://media.giphy.com/media/vLx0VBouiPZuCz0D0a/giphy.gif"/>
 
 
 <aside class="notes">
-		Let's start with a real life story. And mind me it really happened.
-    <br/>
-    So in an alternate universe our beloved Barney Stinson is a JS Developer. And one day his boss comes to him and tell him that we're gonna start a new project. It'll all be glorious and they're gonna build it on React , Redux, GraphQL and other cool tech out there.
-
+    There was a JS dev named Barney. One day his boss comes to him and say that they're gonna start a new project. It's gonna be glorious and they'll use React, Redux and other sister technologies.
 </aside>
 
 ---
@@ -70,6 +76,10 @@ shobhit-chittora</a>
     <br/>
     But slowly as more people joined the project, more requirements were realized, he was like - 
 </aside>
+
+---
+
+<img style="width: 60%;" src="https://media.giphy.com/media/7zAxhCMwk836gzfu3e/source.gif"/>
 
 ---
 
@@ -151,13 +161,9 @@ a function modifies some state outside its scope or has an observable interactio
 &quot;
 </p>
 
----
-
-What are considered side-effects ?
-
-* Network calls
-* Actions dispatched
-* Reading from state outside the scope of a component
+<aside class="notes">
+		An ajax request which fires a callback on success is a classic example of side effect for a component.
+</aside>
 
 ---
 
@@ -180,6 +186,11 @@ What are considered side-effects ?
 
 <p style="font-weight: bold; margin-top: 70px;"> &quot; Generators are functions which can be exited and later re-entered. Their context (variable bindings) will be saved across re-entrances.
  &quot; </p>
+
+ <aside class="notes">
+		This is where the real power of saga comes from. This ability to pause the execution and resume is what make it all glorious.
+</aside>
+
 
 ---
 
